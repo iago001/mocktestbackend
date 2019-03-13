@@ -1,0 +1,22 @@
+{
+  "name": "mocktestnode",
+  "version": "1.0.0",
+  "description": "Mock test node server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Ankur Kumar",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.8",
+    "passport": "^0.4.0",
+    "passport-http-bearer": "^1.0.1",
+    "randomstring": "^1.1.5"
+  },
+  "config": {
+    "mongodburl": "mongodb://127.0.0.1:27017/admin",
+    "port": 4000
+  }
+}
